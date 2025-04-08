@@ -1,0 +1,236 @@
+
+.logo{
+    height: 50px;
+    color: black;
+    font-size: x-large;
+    text-align: left;
+    position: relative;
+    padding-bottom: 4%;
+    padding-left: 4%;
+}
+
+.logo2{
+    height: 50px;
+    color: white;
+    font-size: x-large;
+}
+
+.dot{
+    font-size:xx-large;
+    color: crimson;
+}
+
+.body{
+    font-family:Arial, sans-serif;
+}
+
+.quote{
+    font-family: "Amatic SC", cursive;
+    font-size: 4.0625rem;
+    color: #37373f;
+}
+
+.titles{
+    width: 100%;
+    font-family: "Amatic SC", cursive;
+    font-size: 4.0625rem;
+    color: #37373f;
+    text-align: center;
+}
+
+.titlesred{
+    color: crimson;
+}
+
+.intro{
+    width: 40%;
+    font-size: larger;
+}
+
+.container{
+    display: flex;
+    padding-left: 100px;
+    padding-top: 100px;
+    background-color:rgb(235, 230, 230);
+}
+
+.maindish{
+    padding-left: 200px;
+    height: 500px;
+}
+
+.btn{
+    height: 40px;
+    width:150px;
+    color:white;
+    background-color:rgb(201, 2, 2);
+    font-size: large;
+    border-radius: 100px;
+}
+
+.btn:hover{
+    background-color:red;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+.icon{
+    height:70px;
+}
+
+.icon:hover{
+    transition-duration: 0.5s;
+    height: 60px;
+}
+
+.minniicon{
+    height:40px;
+    width: 40px;
+}
+
+.minniicon:hover{
+    transition-duration: 0.5s;
+    height:50px;
+    width:50px;
+}
+
+.header {
+    padding: 0%;
+    height: 80px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    gap: 100px;
+    margin-right: 20%;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: rgb(155, 153, 153);
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.header a:hover{
+    transition-duration:0.5s;
+    transition-delay: 0.1s;
+    color: crimson;
+    text-decoration: underline;
+}
+
+.row1{
+    width: 80%;
+    text-align: center;
+    height: 400px;
+    color: #37373f;
+    margin-left: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.row1img:hover{
+    height: 380px;
+    width:380px;
+    transition-duration: 0.5s;
+    transition-delay:0.1s ;
+}
+
+.row2{
+    display: grid;
+    width: 100%;
+    padding-left: 180px;
+}
+
+.row1img{
+    width:350px;
+    height: 350px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.row2img{
+    width:300px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.row2img:hover{
+    height: 230px;
+    width: 330px;
+    transition-duration: 0.5s;
+}
+
+.form1{
+    padding-left: 140px;
+    gap: 20px;
+    color: #37373f;
+    width: 100%;
+    background-color: rgb(243, 242, 242);
+}
+
+.form1 td{
+    padding: 20px;
+}
+
+.form2{
+    width: 100%;
+    padding-left: 140px;
+    background-color: rgb(243, 242, 242);
+}
+
+.form2 td{
+    padding: 20px;
+}
+
+.subbtn{
+    border-radius: 1px;
+    background-color: rgb(201, 2, 2);
+    color: aliceblue;
+    height: 40px;
+    width:100px;
+}
+
+.subbtn:hover{
+    transition-duration: 0.5s;
+    background-color: red;
+    color: black;
+}
+
+.bx{
+    height: 40px;
+    width: 500px;
+}
+
+.bx2{
+    height: 45px;
+    width: 200%;
+}
+
+.list{
+    display: flex;
+}
+
+.footer{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+}
+
+.iframe{
+    height: 350px;
+    width: 100%;
+}
+
+.data{
+    color: aliceblue;
+    font-size: larger;
+
+}
