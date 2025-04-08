@@ -66,6 +66,7 @@
     background-color:rgb(201, 2, 2);
     font-size: large;
     border-radius: 100px;
+    border: 1px;
 }
 
 .btn:hover{
@@ -78,9 +79,15 @@
     height:70px;
 }
 
-.icon:hover{
-    transition-duration: 0.5s;
-    height: 60px;
+
+.form1 td{
+    display: table table-row;
+    transition-duration: 1s;
+    transition: 1 ease-in-out;
+}
+
+.form1 td:hover{
+    transform: scale(0.9);
 }
 
 .minniicon{
@@ -96,13 +103,16 @@
 
 .header {
     padding: 0%;
-    height: 80px;
+    margin: 0%;
+    height: 60px;
     background-color: white;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
+    position:fixed;
+    border: 20px;
+    border-color: #37373f;
 }
 
 .header ul {
@@ -115,7 +125,7 @@
 .header ul li a {
     text-decoration: none;
     color: rgb(155, 153, 153);
-    font-size: x-large;
+    font-size: large;
     font-weight: bolder;
 }
 
@@ -127,32 +137,30 @@
 }
 
 .row1{
-    width: 80%;
-    text-align: center;
-    height: 400px;
-    color: #37373f;
-    margin-left: 100px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.row1img:hover{
-    height: 380px;
-    width:380px;
-    transition-duration: 0.5s;
-    transition-delay:0.1s ;
-}
-
-.row2{
-    display: grid;
     width: 100%;
-    padding-left: 180px;
+    text-align: center;
+    color: #37373f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition-delay:0.1s ;
+    transition: 0.5s ease-in-out;
+}
+
+.row1:hover{
+    transform: scale(1.1);
 }
 
 .row1img{
-    width:350px;
-    height: 350px;
+    width:300px;
+    height: 300px;
     border-radius: 30px;
     padding: 10px;
+}
+
+.row2{
+    display: flex;
+    width: 100%;;
+    text-align: center;
+    justify-content: center;
 }
 
 .row2img{
@@ -160,12 +168,8 @@
     height: 200px;
     padding: 10px;
     border-radius: 20px;
-}
-
-.row2img:hover{
-    height: 230px;
-    width: 330px;
-    transition-duration: 0.5s;
+    transition-duration: 1s;
+    transition-delay: 0.2s;
 }
 
 .form1{
@@ -216,12 +220,32 @@
 
 .list{
     display: flex;
+    list-style: none;
 }
 
 .footer{
     background-color: black;
     color: aliceblue;
     display: flex;
+}
+
+.quicklinks{
+    list-style: none;
+    display: table;
+}
+
+.quicklinks a{
+    text-decoration: none;
+    color: azure;
+    transition-duration: 1s;
+    display: inline-block;
+    width: 300px;
+    font-size: larger;
+}
+
+.quicklinks a:hover{
+    transform: translateX(15px);
+    background-color: #37373f;
 }
 
 .iframe{
@@ -231,6 +255,6 @@
 
 .data{
     color: aliceblue;
-    font-size: larger;
+    font-size: large;
 
 }
